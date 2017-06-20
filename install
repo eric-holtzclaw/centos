@@ -1,0 +1,8 @@
+#install basics
+yum install net-tools -y
+yum install nmap -y
+yum install wget -y
+yum install telnet -y
+yum install ntp -y
+/usr/sbin/ntpdate 0.centos.pool.ntp.org
+
